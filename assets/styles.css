@@ -1,0 +1,187 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('background.jpg');
+    background-position: center top; /* Adjust as needed */
+    color: #eee;
+}
+
+/* Header styles */
+header {
+    color: #fff;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8); /* Added text-shadow */
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8); /* Added text-shadow */
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+/* Heading styles */
+h1 {
+    text-align: center;
+    padding-left: 200px;
+    color: white;
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0;
+    position: relative;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Added text-shadow */
+}
+
+.circular-image {
+    position: absolute;
+    top: 23%;
+    right: 12%;
+    transform: translateY(-50%);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.circular-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+    color: #eee;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8); /* Added text-shadow */
+}
+
+/* Paragraph styles */
+p {
+    text-align: left;
+    margin-bottom: 20px;
+    color: #ccc;
+}
+
+/* Box styles */
+.content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.box {
+    width: 50%; /* Adjust width as needed */
+    margin: 20px;
+    padding: 20px;
+    background-color: #333;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Added box-shadow */
+}
+
+/* Work and Volunteer Experience styles */
+.work-experience, .volunteer-experience {
+    width: 50%;
+    margin: 20px;
+}
+
+.job-box {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Added box-shadow */
+}
+
+.job-title {
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8); /* Added text-shadow */
+}
+
+.job-description {
+    color: #ccc;
+}
+
+.certificate-box {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Added box-shadow */
+}
+
+.certificate {
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8); /* Added text-shadow */
+}
+
+/* new new */
+.work-samples-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.work-sample {
+    width: 400px; /* Adjust width as needed */
+    margin: 20px;
+    text-align: center;
+}
+
+.capstone-sample {
+    width: 250px;
+    margin: 20px;
+    text-align: center;
+}
+
+.work-sample img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Added box-shadow */
+}
+
+.caption {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Added box-shadow */
+}
+
+.caption h3,
+.caption p {
+    color: #eee;
+}
+
+.caption button {
+    background-color: #555;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.caption button:hover {
+    background-color: #777;
+}
+
+@media screen and (max-width: 768px) {
+    .box, .work-experience, .volunteer-experience, .new-container {
+        width: 100%;
+    }
+}
